@@ -1,0 +1,114 @@
+body{
+	color: rgb(106,125,200);
+	background: rgb(239,241,251);
+	font-size: 16px;
+	font-family: Helvetica;
+	font-weight: 50;
+	}
+
+p{
+	text-align: justify;
+}
+
+h1, h2, h3, h4{
+		font-weight: lighter;
+		letter-spacing: 3px;
+		text-transform: uppercase;
+		text-align: center;
+	}
+
+h1{
+		font-size:32px;
+		color: rgb(39,52,105);
+
+	}
+
+h2{
+		font-size:28px;
+		color: rgb(50,66,134);
+	}
+h3{
+		font-size: : 22px;
+		color: rgb(66,89,179);
+		
+}
+h4{
+		font-size: 14px;
+		color: rgb(229,118, 162);
+	}
+a{
+		text-decoration: none;
+		color: rgb(2,67,128);
+		transform: : 0,3s ease
+
+	}
+
+
+
+/*Custom design with class */;
+.container {
+	width: 350px 
+	margin:50px auto;
+}
+
+.card-white {
+	background: white;
+    padding: 20px 50px;
+    margin: 20px 200px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+}
+
+.img-circle {
+	border-radius: 50%;
+	text-align: center;
+}
+
+.btn-pink{
+	background: rgb(219,67,128); 
+	color: rgb(255,255,255);
+	padding: 10px 20px;
+	border-radius: 4px;
+}
+
+.btn-pink:hover{
+	background: rgb(39,52,251); 
+	color: rgb(255,255,255);
+	padding: 10px 20px;
+	border-radius: 4px;	
+}
+
+.école{
+	width: 120px;
+	height:50px;
+}
+.skema{
+	width: 100px;
+	height:100px;
+}
+
+.list-inline{
+	list-style: none;
+}
+
+#column{
+	column-count: 3;
+	text-align: center;
+}
+
+@media (max-width: 960px) {
+   .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+   .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+   .container {
+    width: 300px;
+  }
+}
+
